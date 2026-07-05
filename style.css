@@ -413,3 +413,27 @@ textarea {
         grid-template-columns: 1fr;
     }
 }
+  /* PRODUCT PAGE */
+.product-section {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+.product-section h2 {
+    margin-bottom: 15px;
+    color: #0b7a3b;
+}
+
+.product-box {
+    margin-top: 10px;
+}
+
+.product-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
