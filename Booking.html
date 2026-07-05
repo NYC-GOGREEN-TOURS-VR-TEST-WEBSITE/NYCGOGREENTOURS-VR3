@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Tour – NYC GoGreen Tours</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TouristAttraction",
+  "name": "NYC GoGreen Tours",
+  "description": "Eco-friendly walking, bike, pedicab, horse carriage, and VR tours in New York City.",
+  "image": "https://gogreentours.com/media/logo/gogreen-logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Central Park South",
+    "addressLocality": "Manhattan",
+    "addressRegion": "NY",
+    "postalCode": "10019",
+    "addressCountry": "USA"
+  },
+  "telephone": "+1-212-555-2026",
+  "url": "https://gogreentours.com"
+}
+</script>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <img src="media/logo/gogreen-logo.png" alt="NYC GoGreen Tours Logo" class="logo">
+        <nav>
+            <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="tours.html">Tours</a></li>
+        <li><a href="famous-guests.html">Famous Guests</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="booking.html">Booking</a></li>
+    </ul>
+</nav>
+    </header>
+
+    <!-- PAGE TITLE -->
+    <section class="page-title">
+        <h1>Book Your Tour</h1>
+        <p>Choose your tour, pick your date, and go green in NYC.</p>
+    </section>
+
+    <!-- BOOKING FORM -->
+    <section class="booking-section">
+
+        <div class="booking-grid">
+        	<!-- VR HIGHLIGHT BOX -->
+<div class="vr-box">
+    <h2>VR – Self Guided Tour</h2>
+    <p>Experience NYC at your own pace with our immersive VR self-guided tour. 
+       Perfect for solo travelers, tech lovers, and guests who want full control of their adventure.</p>
+    <ul>
+        <li>Full 360° VR experience</li>
+        <li>Explore NYC landmarks anytime</li>
+        <li>Works with all major VR headsets</li>
+        <li>Includes audio narration</li>
+    </ul>
+</div>
+
+            <!-- FORM -->
+            <form class="booking-form">
+
+                <h2>Reservation Form</h2>
+
+                <label>Your Name</label>
+                <input type="text" placeholder="Full Name" required>
+
+                <label>Email</label>
+                <input type="email" placeholder="you@example.com" required>
+
+                <label>Phone</label>
+                <input type="text" placeholder="(555) 555-5555">
+
+                <label>Select Tour</label>
+                <select required>
+                    <option value="">Choose a Tour</option>
+                    <option>Walking Tour</option>
+                    <option>Bike Tour</option>
+                    <option>Pedicab Tour</option>
+                    <option>Horse & Carriage Tour</option>
+                    <option>Special / Custom Tour</option>
+                </select>
+
+                <!-- NEW SECTION: VR OR TOUR GUIDE -->
+                <label>Tour Type</label>
+                <select required>
+                    <option value="">Choose Tour Type</option>
+                    <option>VR – Self Guided</option>
+                    <option>Tour Guide</option>
+                </select>
+
+                <label>Date</label>
+                <input type="date" required>
+
+                <label>Group Size</label>
+                <input type="number" min="1" placeholder="1" required>
+
+                <label>Notes (Optional)</label>
+                <textarea placeholder="Any special requests?"></textarea>
+
+                <button type="submit" class="btn">Submit Booking Request</button>
+
+            </form>
+
+            <!-- CONTACT INFO -->
+            <div class="booking-info">
+
+                <img src="media/founder/founder-uniform.jpg" alt="Founder" class="booking-founder">
+
+                <h2>Contact Us</h2>
+                <p><strong>Email:</strong> info@gogreentours.com</p>
+                <p><strong>Phone:</strong> (212) 555-2026</p>
+                <p><strong>Location:</strong> Central Park South, Manhattan, NYC</p>
+
+                <h3>Hours</h3>
+                <p>Monday – Sunday</p>
+                <p>9:00 AM – 7:00 PM</p>
+
+                <h3>Why Book With Us?</h3>
+                <ul>
+                    <li>Eco-friendly transportation</li>
+                    <li>Experienced NYC guide</li>
+                    <li>Family-friendly tours</li>
+                    <li>Private & group options</li>
+                    <li>Authentic NYC routes</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 NYC GoGreen Tours — Green Is Good.</p>
+    </footer>
+
+</body>
+</html>
