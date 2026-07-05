@@ -1,5 +1,5 @@
 # NYCGOGREENTOURS-VR3
-Phase 2 of VR Self guided Tours and Guided from Bronx to Battery Park 
+Phase 2 of VR Self gui0ded Tours and Guided from Bronx to Battery Park 
 # NYC GoGreen Tours Website
 
 A complete, multi‑page website for NYC GoGreen Tours, featuring eco‑friendly tour options including Walking, Bike, Pedicab, Horse & Carriage, VR Self‑Guided, and Tour Guide experiences.
